@@ -1,0 +1,84 @@
+$alice-blue: rgba(242, 249, 255, 1);
+$dark-slate-gray: rgba(38, 42, 78, 1);
+$dim-gray: rgba(100, 100, 100, 1);
+$royal-blue: rgba(35, 112, 200, 1);
+$white: rgba(255, 255, 255, 1);
+
+@mixin roboto-16-regular {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@mixin roboto-35-medium {
+  font-family: "Roboto";
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 69px;
+}
+@mixin roboto-48-bold {
+  font-family: "Roboto";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+}
+
+.aboutBlueTwo {
+  background-color: $alice-blue;
+  padding: 276px 239px;
+  display: flex;
+  align-items: flex-start;
+}
+.image3 {
+  width: 508.03px;
+  height: 512px;
+  margin-right: 171px;
+}
+.frame108 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.aboutBlue {
+  width: 290.34px;
+  color: $royal-blue;
+  margin-bottom: 36px;
+  letter-spacing: 5.25px;
+  @include roboto-35-medium;
+}
+.sexMaster{
+  max-width: 665.93px;
+  color: $dark-slate-gray;
+  margin-bottom: 36px;
+  @include roboto-48-bold;
+}
+.blueText {
+  max-width: 634.82px;
+  color: $dim-gray;
+  margin-bottom: 36px;
+  @include roboto-16-regular;
+}
+.group351 {
+  padding: 13px 0 0;
+  position: relative;
+}
+.rec3 {
+  width: 157px;
+  height: 48px;
+  background-color: $royal-blue;
+  border-radius: 30px;
+  position: relative;
+}
+.readMore {
+  height: 59px;
+  width: 118px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 80px;
+  color: $white;
+  display: flex;
+  position: absolute;
+  right: 2px;
+  top: 0;
+}
