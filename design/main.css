@@ -1,0 +1,153 @@
+ol, ul, li,a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
+
+.main{
+  min-height: 1308px;
+  background-image: url('background.png');
+  background-repeat : no-repeat;
+  background-size : cover;
+}
+.topbar{
+  height: 100px;
+}
+.title{
+  margin: 20px auto;
+}
+.menus{
+  width: 1800px;
+  overflow: hidden;
+  margin:  auto;
+
+}
+.menus > a{
+  float: left;
+  margin-left: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  color: #FFFFFF;
+}
+.menus > a:not(.title){
+  margin-top: 40px;
+}
+
+.create_survey{
+  position: relative;
+  top: 250px;
+  height: 500px;
+}
+.content{
+  width: 1620px;
+  margin: 0 auto;
+}
+.text{
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #FAFAFA;
+}
+.wind_1{
+  font-family: 'Trade Winds';
+  font-size: 86px;
+  color: #FFFFFF;
+}
+.wind_2{
+  font-family: 'Trade Winds';
+  font-size: 61px;
+  color: #FFFFFF;
+}
+.shortcut{
+  position: relative;
+  top: 15px;
+  font-family: 'Roboto';
+  color: #FFFFFF;
+  width: 120px;
+  height: 45px;
+  background: #1F66CF;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 15px;
+  border: 0;
+  cursor: pointer;
+}
+.join_survey{
+  height: 250px;
+}
+.join_survey > .content{
+  text-align: right;
+}
+.aboutblue{
+  position: relative;
+  min-height: 1080px;
+  background: #F2F9FF;
+  text-align: center;
+}
+.content2{
+  width: 1550px;
+  height: 600px;
+  display: inline-block;
+  position: relative;
+  top: 240px;
+}
+.content2 > img{
+  width: 508px;
+  height: 512px;
+  display: inline-block;
+  position: relative;
+  top: 95px;
+}
+.content2 > div{
+  display: inline-block;
+  text-align: left;
+  margin-left: 400px;
+}
+.bluedesign{
+  min-height: 1402px;
+  background: #FFFFFF;
+}
+.content3{
+  position: relative;
+  width: 1550px;
+  margin: 201px auto;
+  height: 1000px;
+}
+.ourteam{
+  min-height: 802px;
+  background: #F2F9FF;
+  text-align: center;
+}
+.team{
+  width: 1550px;
+  margin: 0 auto;
+  position: relative;
+  top: 170px;
+}
+.names{
+  width: 1550px;
+  display: inline-block;
+  position: relative;
+  top: 180px;
+}
+.names > div{
+  display: inline-block;
+  width: 300px;
+  height: 90px;
+  margin: 0 20px;
+  text-align: center;
+}
+.names p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 42px;
+  color: #262A4E;
+}
